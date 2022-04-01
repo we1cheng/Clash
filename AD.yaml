@@ -28,7 +28,6 @@ ruleset=🎯 全球直连,clash-classic:https://ghproxy.com/https://raw.githubus
 ;ruleset=🎯 全球直连,https://ghproxy.com/https://raw.githubusercontent.com/hope140/Clash/beta/Direct.list
 ruleset=🎯 全球直连,[]GEOIP,CN
 ruleset=🐟 漏网之鱼,[]FINAL
-ruleset=🛑 隐私拦截,[]REJECT
 
 custom_proxy_group=✈️ 节点选择`select`[]🚀 手动切换`[]🔯 故障转移`[]🇭🇰 香港`[]🇨🇳 台湾`[]🇸🇬 新加坡`[]🇺🇲 美国`[]🇰🇷 韩国`[]DIRECT
 custom_proxy_group=🚀 手动切换`select`.*
@@ -43,6 +42,7 @@ custom_proxy_group=🎮 游戏平台`select`[]DIRECT`[]✈️ 节点选择`[]�
 custom_proxy_group=🎥 奈飞视频`select`[]✈️ 节点选择`[]🇭🇰 香港`[]🇨🇳 台湾`[]🇸🇬 新加坡`[]🇺🇲 美国`[]🇰🇷 韩国`[]🚀 手动切换
 custom_proxy_group=🌍 国外媒体`select`[]✈️ 节点选择`[]🇭🇰 香港`[]🇨🇳 台湾`[]🇸🇬 新加坡`[]🇺🇲 美国`[]🇰🇷 韩国`[]🚀 手动切换
 custom_proxy_group=🌏 国内媒体`select`[]DIRECT
+custom_proxy_group=🛑 隐私拦截`select`[]REJECT`[]DIRECT
 custom_proxy_group=🎯 全球直连`select`[]DIRECT`[]✈️ 节点选择
 custom_proxy_group=🐟 漏网之鱼`select`[]✈️ 节点选择`[]DIRECT
 custom_proxy_group=🇭🇰 香港`select`(港|HK|Hong Kong)
