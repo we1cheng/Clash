@@ -27,3 +27,8 @@ dns:
      - tls://8.8.4.4:853
      - https://cloudflare-dns.com/dns-query
      - https://dns.google/dns-query
+  fallback-filter:
+     geoip: true
+     geoip-code: CN
+     ipcidr:
+       - 240.0.0.0/4
