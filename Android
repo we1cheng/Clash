@@ -1,0 +1,48 @@
+[custom]
+;不要随意改变关键字，否则会导致出错
+;blackmatrix7规则
+
+;设置规则标志位
+ruleset=🆎 AdBlock,clash-domain:https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml
+ruleset=✨ GoogleFCM,clash-classic:https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GoogleFCM/GoogleFCM.yaml
+ruleset=🔮 Copilot,clash-classic:https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Copilot/Copilot.yaml
+ruleset=Ⓜ️ Microsoft,clash-classic:https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Microsoft/Microsoft.yaml
+ruleset=☁️ Onedrive,clash-classic:https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OneDrive/OneDrive.yaml
+ruleset=👾 OpenAI,clash-classic:https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OpenAI/OpenAI.yaml
+ruleset=🎥 Streaming,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia.yaml
+ruleset=📺 Bilibili,clash-classic:https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/BiliBili/BiliBili.yaml
+ruleset=🌐 Global,clash-classic:https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Proxy/Proxy_Classical.yaml
+ruleset=🌐 Global,https://raw.githubusercontent.com/we1cheng/Clash/main/config/Proxy.list
+ruleset=🐼 Mainland,clash-classic:https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaMax/ChinaMax_Classical.yaml
+ruleset=🐼 Mainland,https://raw.githubusercontent.com/we1cheng/Clash/main/config/Direct.list
+ruleset=🐼 Mainland,[]GEOIP,LAN
+ruleset=🐼 Mainland,[]GEOIP,CN
+ruleset=❄️ Final,[]FINAL
+;设置规则标志位
+
+;设置分组标志位
+custom_proxy_group=✈️ Select`select`[]🚀 手动切换`[]🇭🇰 香港节点`[]🇸🇬 狮城节点`[]🇨🇳 台湾节点`[]🇺🇲 美国节点`[]DIRECT
+custom_proxy_group=🚀 Select`select`.*
+custom_proxy_group=✨ GoogleFCM`select`[]✈️ 节点选择`[]🇭🇰 香港节点`[]🇸🇬 狮城节点`[]🇺🇲 美国节点`[]🚀 手动切换`[]DIRECT
+custom_proxy_group=🔮 Copilot`select`[]DIRECT`[]✈️ 节点选择`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇸🇬 狮城节点`[]🚀 手动切换
+custom_proxy_group=Ⓜ️ Microsoft`select`[]DIRECT`[]✈️ 节点选择`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇸🇬 狮城节点`[]🚀 手动切换
+custom_proxy_group=☁️ Onedrive`select`[]✈️ 节点选择`[]🇭🇰 香港节点`[]🇸🇬 狮城节点`[]🇺🇲 美国节点`[]🚀 手动切换`[]DIRECT
+custom_proxy_group=👾 OpenAI`select`[]DIRECT`[]✈️ 节点选择`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇸🇬 狮城节点`[]🚀 手动切换
+custom_proxy_group=🎥 Streaming`select`[]✈️ 节点选择`[]🇭🇰 香港节点`[]🇸🇬 狮城节点`[]🇺🇲 美国节点`[]🚀 手动切换`[]DIRECT
+custom_proxy_group=📺 Bilibili`select`[]DIRECT`[]🇭🇰 香港节点`[]🚀 手动切换
+custom_proxy_group=🌐 Global`select`[]DIRECT`[]✈️ 节点选择
+custom_proxy_group=🐼 Mainland`select`[]DIRECT`[]✈️ 节点选择
+custom_proxy_group=🆎 AdBlock`select`[]REJECT`[]DIRECT
+custom_proxy_group=❄️ Final`select`[]✈️ 节点选择`[]DIRECT`[]🚀 手动切换
+custom_proxy_group=🇭🇰 香港节点`select`(香港|HK|Hong Kong)
+custom_proxy_group=🇨🇳 台湾节点`select`(台|新北|彰化|TW|Taiwan)
+custom_proxy_group=🇸🇬 狮城节点`select`(新加坡|狮城|SG|Singapore)
+custom_proxy_group=🇺🇲 美国节点`select`(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)
+;设置分组标志位
+
+enable_rule_generator=true
+overwrite_original_rules=true
+
+clash_rule_base=https://raw.githubusercontent.com/we1cheng/Clash/main/config/GeneralClashConfig.yml
+
+;luck
